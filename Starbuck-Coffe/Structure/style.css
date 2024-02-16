@@ -1,0 +1,161 @@
+body {
+  margin: 0px;
+  font-family: "Sodo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.navbar {
+  padding: 20px;
+  font-size: 14px;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 0px 0px rgba(166, 173, 163, 0.81);
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(166, 173, 163, 0.81);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(166, 173, 163, 0.81);
+}
+
+.navbar-left svg {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.navbar-left div {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-left div:hover,
+.find-a-store:hover {
+  color: #00754a;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left > *,
+.navbar-right > * {
+  margin: 10px;
+}
+
+.find-a-store {
+  display: flex;
+  align-items: center;
+  width: 500;
+}
+
+.sign-in,
+.join-now {
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 5px 20px 5px 20px;
+}
+
+.join-now {
+  background-color: black;
+  color: white;
+}
+
+.join-now:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.product img {
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.container {
+  padding-top: 15px;
+}
+
+.product {
+  display: flex;
+}
+
+.product-left,
+.product-right {
+  max-width: 50%;
+  width: 50%;
+}
+
+.product-title {
+  width: 400;
+  text-align: center;
+  color: white;
+  margin: auto;
+  font-size: 40px;
+}
+
+.product-description {
+  width: 600;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 100px 10px 100px;
+  line-height: 30px;
+}
+
+.product-button {
+  border: 1px solid white;
+  max-width: max-content;
+  padding: 5px 20px 5px 20px;
+  border-radius: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.product-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.product-button-white {
+  color: white;
+}
+
+.product-button-black {
+  color: black;
+  border-color: black;
+}
+
+.product-title2 {
+  width: 400;
+  text-align: center;
+  color: #082e20;
+  margin: auto;
+  font-size: 40px;
+}
+
+.product-left2,
+.product-right2 {
+  max-width: 50%;
+  width: 50%;
+}
+
+.product-description2 {
+  width: 600;
+  color: #082e20;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 100px 10px 100px;
+  line-height: 30px;
+}
+
+.product-left2 .img-product2 {
+  display: flex;
+}
